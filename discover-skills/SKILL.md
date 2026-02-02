@@ -46,11 +46,13 @@ description: 当你发现当前可用的技能都不够合适（或用户明确�
 
 本技能必须通过自带脚本执行查询。
 
-* **脚本路径**：`scripts/discover.py`
+* **脚本路径**：`scripts/discover.py`（相对于本 SKILL.md 所在目录）
+* **执行时的工作目录**：必须先切换到本 skill 所在目录（即包含此 SKILL.md 的目录），再执行脚本
 * **调用方式示例**：
 
 ```bash
-python scripts/discover.py --task_goal "合并多个文件" --task_constraints "必须支持 PDF、必须支持批量处理" --keywords "pdf, merge, batch" --max_results 5
+# 先 cd 到本 skill 目录，再执行脚本
+cd <本skill所在目录> && python scripts/discover.py --task_goal "合并多个文件" --task_constraints "必须支持 PDF、必须支持批量处理" --keywords "pdf, merge, batch" --max_results 5
 ```
 
 ---
