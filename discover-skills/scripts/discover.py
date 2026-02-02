@@ -14,7 +14,7 @@ from urllib.request import Request, urlopen
 from urllib.error import URLError, HTTPError
 
 # SkillRadar Discover 服务地址
-DISCOVER_API_BASE = "https://api.skillradar.quest/discover"
+DISCOVER_API_BASE = "https://api.skillradar.quest"
 
 
 def discover(task_goal: str, task_constraints: str, keywords: str, max_results: int) -> dict:
@@ -91,3 +91,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
