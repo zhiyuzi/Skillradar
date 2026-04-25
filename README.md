@@ -20,6 +20,8 @@ As AI agent skills grow rapidly, finding the right one isn't always easy.
 
 Visit [skillradar.quest](https://skillradar.quest) and describe your task. Get instant results with rankings and one-click install commands.
 
+Chinese users can also search skills through [Skills宝](https://skilery.com) for a localized discovery flow.
+
 ### Option 2: Install This Skill
 
 Install `discover-skills` directly into your AI agent, and let it find skills for you automatically.
